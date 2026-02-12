@@ -34,12 +34,15 @@
     <span class="date">10th February 2026</span>
   </div>
 
-  
   <figure>
-    <img src="stmary.jpeg"style="width:500px; height:375px;">
-    <img src="viaduct.jpeg" style="width:500px; height:375px;">
-    <img src="markethall.jpeg"style="width:500px; height:375px;">
-    <figure>
+  <img src="stmary.jpeg" alt="St Mary’s Church in Stockport" width="500" height="375">
+  <img src="viaduct.jpeg" alt="Stockport Viaduct" width="500" height="375">
+  <img src="markethall.jpeg" alt="Stockport Market Hall interior" width="500" height="375">
+  <figcaption>Landmarks of Stockport town centre.</figcaption>
+</figure>
+
+  
+  
 
 
   
@@ -95,15 +98,67 @@ In 2011, Stockport Metropolitan Borough Council embarked on an ambitious regener
     </form>
   </div>
 
-<!-- </div> -->
+</div>
+
+<div id="pagetwoo" style="display:none; text-align:center;">
+  <h2>Stockport's famous figures-George Back</h2>
+  <p>As a boy, he went to sea as a volunteer in the frigate HMS Arethusa in 1808 and took part in the destruction of batteries on the Spanish coast. In the following year, he was involved in combat in the Bay of Biscay, until he was captured by the French. Back remained a prisoner at Verdun until the peace of early 1814; during this time he studied French and mathematics and practised his skills as an artist, which he later put to use in recording his travels through the Canadian Arctic.
+
+
+Back in 1833
+Following his release, Back served on HMS Akbar and HMS Bulwark as a midshipman before volunteering to serve under John Franklin in his first expedition to the Arctic in 1818. Back also served under Franklin in his two overland expeditions to survey the northern coast of North America, first on the Coppermine expedition—when Back was responsible for all the surveying and chart making—and then the Mackenzie River expedition in 1824–1826, during which time he was promoted first to lieutenant and then to commander in 1825. Lacking appointment to a ship, Back was unemployed on the half-pay list, from 1827 to 1833.
+
+Back River Expedition
+By 1832 nothing had been heard of the Arctic explorer John Ross since 1829, and plans were made to find him. Back proposed to take fur trade routes to Great Slave Lake and follow the Great Fish River northeast to Ross's probable location. No European had ever seen this river but it was known from Indian reports (it was later named the Back River).
+
+He left England in February 1833, reached Great Slave Lake in August where George McLeod of the Hudson's Bay Company had built winter quarters at Fort Reliance at the eastern end of the lake. He located the river on 29 August and returned to the fort to winter. In March 1834 he received a packet of letters saying that Ross was back in England and telling him to explore the coast from Ross's King William Land to Franklin's Point Turnagain. This was the main unknown region, along with a few hundred miles eastward from Point Barrow and the area around King William Island which was completely misunderstood.
+
+He set out on 7 June 1834, passed Artillery Lake and Clinton-Colden Lake and reached the river on 28 June. He ran east down a river in the barren grounds with 83 rapids but only one portage. On 23 July he reached salt water at Chantrey Inlet. He explored the inlet, saw King William Island to the north and then wisely turned back. He reached Fort Reliance on 27 September 1834 and England on 8 September 1835.
+
+The expedition's naturalist was Richard King, who contributed appendices on meteorology and botany to Back's account of the expedition; he also wrote his own two-volume account of the expedition.
+
+Frozen Strait Expedition
+
+HMS Terror (right) anchored near an iceberg off Baffin Island, as painted by Back. Three walruses are at left.
+In 1836, Back was promoted to captain by an Order in Council, a rare honour. The goal this time was the northern end of Hudson Bay at either Repulse Bay (now Naujaat) or Wager Inlet. From there he would drag boats overland to seawater and sail the unknown coast west to the Back River and Franklin's Point Turnagain. These were the two easternmost known points on the north coast west of Hudson Bay. The area between them and between the Back River and Hudson Bay was unknown. In fact, 60 mi (97 km) northwest of Repulse Bay is the cul-de-sac of the Gulf of Boothia. To reach the Back River he would have had to drag his boats 250 mi (400 km) west-northwest. He was given command of the converted bomb vessel HMS Terror with a crew of 60 and provisions for 18 months.
+
+He left in June 1836, which was late in the season. Because of contrary winds they had to be towed by steamship all the way to the Orkney Islands. He reached Hudson Strait on the first of August. By the end of the month, Terror was beset by ice somewhere east of Frozen Strait. It remained icebound for 10 months: at one point Terror was pushed 40 ft (12 m) up the side of a cliff by the pressure of the ice.
+
+Several times preparations were made to abandon ship. Scurvy appeared in January and three men died of it. In the spring of 1837, an encounter with an iceberg further damaged the ship. Sometimes the pressure of the ice was enough to force turpentine out of the planks. The ship drifted with the ice south along Southampton Island and then east toward Hudson Strait. It was not until July that the ice retreated sufficiently to allow Terror to head for home.
+
+Soon a large mass of ice frozen to the vessel broke off causing the remaining ice to tip the ship on its side until the ice was hacked off. The vessel was in a sinking condition by the time he was able to beach the ship on the coast of Ireland at Lough Swilly. "There was not one on board who did not express astonishment that we had ever floated across the Atlantic."
+
+Although a number of Arctic explorers allowed their ships to be frozen in harbours for the winter, this seems to be the only case of a ship – save for the disastrous Franklin Expedition – being caught in offshore ice. Its survival is a tribute to the strength of bomb vessels in Arctic service.</p>
+  <button onclick="showPage('page1')">See less</button>
+</div>
+
+
+<div id="page1">
+</div>
+
+<script>
+function showPage(pageId) {
+  document.getElementById('page1').style.display = 'none';
+  document.getElementById('pagetwoo').style.display = 'none';
+  document.getElementById(pageId).style.display = 'block';
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  showPage('page1');
+});
+</script>
+
+
+<button onclick="showPage('pagetwoo')">See more...</button>
 
 <footer>
   <nav>
     <ul>
-      <li><a href="">About</a></li>
-      <li>hello<a href=""></a></li>
-      <li>hello<a href=""></a></li>
-      <li>hello<a href=""></a></li>
+      <li><a href="about.html">About</a></li>
+      <li>Science<a href=""></a></li>
+      <li>The Museum<a href=""></a></li>
+      <li>Hub<a href=""></a></li>
     </ul>
   </nav>
   <p>&copy;© 2026 Stockport Citizen. All rights reserved.
